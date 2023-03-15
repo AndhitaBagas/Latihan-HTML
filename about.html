@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Navbar Start */
+  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:gray ;
+    text-align: center;
+    align-items: center;
+  
+  }
+  li{
+    float: left;
+
+  }
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+
+  }
+  li a:hover:not(.active){
+     background-color: #585347;
+}
+/*Body*/
+  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.5);
+  margin: 10px;
+}
+
+
+.about-section {
+  padding: 50px;
+  text-align: left;
+  background-color: #2F271E;
+  color: white;
+}
+
+
+.container {
+  padding: 0 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px;
+  color: #Eab676;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.img.kanan{
+  float: right;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: ##Eab676;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+</style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+   <li><a href="catalog.html">Catalog</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  
+  
+</ul>
+  <!-- About -->
+<div class="about-section">
+  <h1>Tentang Kami</h1>
+   <p style="text-align:justify;">
+    <img src="baju.jpg" style="float:left; margin:0 10px 3px 0; width: 150px;" />
+    Distro, singkatan dari distribution store atau distribution outlet, adalah jenis toko di Indonesia yang menjual pakaian dan aksesori yang dititipkan oleh pembuat pakaian, atau diproduksi sendiri. Distro umumnya merupakan industri kecil dan menengah (IKM) yang sandang dengan merk independen yang dikembangkan kalangan muda. Produk yang dihasilkan oleh distro diusahakan untuk tidak diproduksi secara massal, agar mempertahankan sifat eksklusif suatu produk dan hasil kerajinan.</p>
+   <p style="text-align:justify;">
+    Konsep distro berawal pada pertengahan 1990-an di Bandung.Saat itu band-band independen (Indie) di Bandung berusaha menjual merchandise mereka seperti CD/kaset, t-shirt, dan sticker selain di tempat mereka melakukan pertunjukan. Bentuk awal distro adalah usaha rumahan dan dibuat etalase dan rak untuk menjual t-shirt. Selain komunitas musik, akhirnya banyak komunitas lain seperti komunitas punk dan skateboard yang kemudian juga membuat toko-toko kecil untuk menjual pakaian dan aksesori mereka. Kini, industri distro sudah berkembang, bahkan dianggap menghasilkan produk-produk yang memiliki kualitas ekspor
+   </p>
+   
+</div>
+
+
+<h1 style="text-align:center">Our Team</h1>
+
+<!-- card bagas -->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="programmer.jpg" alt="bagas" style="width:100%">
+      <div class="container">
+        <h2>Andita Bagas </h2>
+        <p class="title">Leader</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>bagas@eduwork.id</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+<!-- card faida -->
+  <div class="column">
+    <div class="card">
+      <img src="faidatul.jpg" alt="faida" style="width:100%">
+      <div class="container">
+        <h2>Faidatul Laili</h2>
+        <p class="title">Member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>faida@eduwork.id</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- card jones -->
+  <div class="column">
+    <div class="card">
+     <img src="programmer.jpg" alt="jones" style="width:100%">
+      <div class="container">
+        <h2>Jones Saut</h2>
+        <p class="title">Member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@eduwork.id</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- card yuda -->
+<div class="column">
+    <div class="card">
+     <img src="programmer.jpg" alt="yuda" style="width:100%">
+      <div class="container">
+        <h2>Syahrul Yuda</h2>
+        <p class="title">Member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>syahrul@eduwork.id</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
